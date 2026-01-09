@@ -1,0 +1,140 @@
+.rubiks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 60vh;
+    perspective: 1000px;
+    background: radial-gradient(circle at center, #1a1a2e 0%, #000 100%);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.scene {
+    width: 200px;
+    height: 200px;
+    perspective: 600px;
+}
+
+.cube {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: rotateCube 10s infinite linear;
+}
+
+.cube-face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 4px;
+    background: #000;
+    border: 2px solid #000;
+    opacity: 0.95;
+}
+
+.sticker {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Face Colors */
+.front {
+    transform: rotateY(0deg) translateZ(100px);
+}
+
+.right {
+    transform: rotateY(90deg) translateZ(100px);
+}
+
+.back {
+    transform: rotateY(180deg) translateZ(100px);
+}
+
+.left {
+    transform: rotateY(-90deg) translateZ(100px);
+}
+
+.top {
+    transform: rotateX(90deg) translateZ(100px);
+}
+
+.bottom {
+    transform: rotateX(-90deg) translateZ(100px);
+}
+
+.front .sticker {
+    background: #ff3d00;
+}
+
+/* Red */
+.right .sticker {
+    background: #00e676;
+}
+
+/* Green */
+.back .sticker {
+    background: #ff9100;
+}
+
+/* Orange */
+.left .sticker {
+    background: #2979ff;
+}
+
+/* Blue */
+.top .sticker {
+    background: #ffffff;
+}
+
+/* White */
+.bottom .sticker {
+    background: #ffea00;
+}
+
+/* Yellow */
+
+@keyframes rotateCube {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.back-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(-2px);
+}
+
+.controls {
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 1px;
+}

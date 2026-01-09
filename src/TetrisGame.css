@@ -1,0 +1,175 @@
+.tetris-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.game-area {
+    position: relative;
+    border: 2px solid #333;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.tetris-canvas {
+    display: block;
+    background-color: #000;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 10;
+}
+
+.overlay h2 {
+    font-size: 2rem;
+    color: #ff0055;
+    text-shadow: 0 0 10px #ff0055;
+    margin-bottom: 10px;
+}
+
+.start-btn,
+.restart-btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background: transparent;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #00ffff;
+    transition: all 0.3s ease;
+}
+
+.start-btn:hover,
+.restart-btn:hover {
+    background: #00ffff;
+    color: #000;
+    box-shadow: 0 0 20px #00ffff;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 150px;
+}
+
+.stat-box {
+    background: #222;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    text-align: center;
+}
+
+.stat-box h3 {
+    color: #888;
+    margin: 0 0 10px 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.stat-box p {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0;
+    text-shadow: 0 0 5px #fff;
+}
+
+.next-piece-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    margin-top: 10px;
+}
+
+.preview-row {
+    display: flex;
+    gap: 2px;
+}
+
+.preview-cell {
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.mobile-controls {
+    display: none;
+    /* Hidden on desktop by default */
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.control-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.control-btn {
+    width: 50px;
+    height: 50px;
+    background: #333;
+    border: 1px solid #555;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+.control-btn:active {
+    background: #555;
+}
+
+@media (max-width: 768px) {
+    .tetris-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .stat-box {
+        flex: 1;
+        min-width: 80px;
+    }
+
+    .mobile-controls {
+        display: flex;
+        width: 100%;
+    }
+}

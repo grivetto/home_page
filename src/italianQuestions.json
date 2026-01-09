@@ -1,0 +1,242 @@
+[
+    {
+        "category": "Geografia",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Qual è la capitale d'Italia?",
+        "correct_answer": "Roma",
+        "incorrect_answers": [
+            "Milano",
+            "Napoli",
+            "Torino"
+        ]
+    },
+    {
+        "category": "Geografia",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In quale regione si trova il vulcano Etna?",
+        "correct_answer": "Sicilia",
+        "incorrect_answers": [
+            "Calabria",
+            "Campania",
+            "Sardegna"
+        ]
+    },
+    {
+        "category": "Storia",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In quale anno è stata unificata l'Italia?",
+        "correct_answer": "1861",
+        "incorrect_answers": [
+            "1946",
+            "1848",
+            "1870"
+        ]
+    },
+    {
+        "category": "Storia",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Chi fu il primo Re d'Italia?",
+        "correct_answer": "Vittorio Emanuele II",
+        "incorrect_answers": [
+            "Umberto I",
+            "Carlo Alberto",
+            "Vittorio Emanuele III"
+        ]
+    },
+    {
+        "category": "Arte",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Chi ha dipinto 'La Gioconda'?",
+        "correct_answer": "Leonardo da Vinci",
+        "incorrect_answers": [
+            "Michelangelo",
+            "Raffaello",
+            "Caravaggio"
+        ]
+    },
+    {
+        "category": "Arte",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In quale città si trova la Galleria degli Uffizi?",
+        "correct_answer": "Firenze",
+        "incorrect_answers": [
+            "Roma",
+            "Venezia",
+            "Milano"
+        ]
+    },
+    {
+        "category": "Sport",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Quale squadra di calcio ha vinto più scudetti in Italia?",
+        "correct_answer": "Juventus",
+        "incorrect_answers": [
+            "Milan",
+            "Inter",
+            "Roma"
+        ]
+    },
+    {
+        "category": "Sport",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In quale anno l'Italia ha vinto il suo ultimo mondiale di calcio?",
+        "correct_answer": "2006",
+        "incorrect_answers": [
+            "1982",
+            "1990",
+            "2010"
+        ]
+    },
+    {
+        "category": "Cucina",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Qual è l'ingrediente principale del pesto alla genovese?",
+        "correct_answer": "Basilico",
+        "incorrect_answers": [
+            "Prezzemolo",
+            "Spinaci",
+            "Rucola"
+        ]
+    },
+    {
+        "category": "Cucina",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Da quale regione proviene il Parmigiano Reggiano?",
+        "correct_answer": "Emilia-Romagna",
+        "incorrect_answers": [
+            "Lombardia",
+            "Toscana",
+            "Piemonte"
+        ]
+    },
+    {
+        "category": "Scienza",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Chi ha inventato la pila elettrica?",
+        "correct_answer": "Alessandro Volta",
+        "incorrect_answers": [
+            "Guglielmo Marconi",
+            "Enrico Fermi",
+            "Galileo Galilei"
+        ]
+    },
+    {
+        "category": "Scienza",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Qual è il simbolo chimico dell'oro?",
+        "correct_answer": "Au",
+        "incorrect_answers": [
+            "Ag",
+            "Fe",
+            "Cu"
+        ]
+    },
+    {
+        "category": "Letteratura",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Chi ha scritto 'La Divina Commedia'?",
+        "correct_answer": "Dante Alighieri",
+        "incorrect_answers": [
+            "Francesco Petrarca",
+            "Giovanni Boccaccio",
+            "Alessandro Manzoni"
+        ]
+    },
+    {
+        "category": "Letteratura",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Qual è il romanzo più famoso di Alessandro Manzoni?",
+        "correct_answer": "I Promessi Sposi",
+        "incorrect_answers": [
+            "Il Decameron",
+            "Il Gattopardo",
+            "La Coscienza di Zeno"
+        ]
+    },
+    {
+        "category": "Musica",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Chi ha cantato 'Nel blu dipinto di blu' (Volare)?",
+        "correct_answer": "Domenico Modugno",
+        "incorrect_answers": [
+            "Lucio Battisti",
+            "Adriano Celentano",
+            "Mina"
+        ]
+    },
+    {
+        "category": "Musica",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Quale strumento suonava Niccolò Paganini?",
+        "correct_answer": "Violino",
+        "incorrect_answers": [
+            "Pianoforte",
+            "Chitarra",
+            "Flauto"
+        ]
+    },
+    {
+        "category": "Cinema",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Chi ha diretto il film 'La Dolce Vita'?",
+        "correct_answer": "Federico Fellini",
+        "incorrect_answers": [
+            "Vittorio De Sica",
+            "Sergio Leone",
+            "Roberto Rossellini"
+        ]
+    },
+    {
+        "category": "Cinema",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Quale film italiano ha vinto l'Oscar come miglior film straniero nel 1999?",
+        "correct_answer": "La vita è bella",
+        "incorrect_answers": [
+            "Nuovo Cinema Paradiso",
+            "La grande bellezza",
+            "Mediterraneo"
+        ]
+    },
+    {
+        "category": "Geografia",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Qual è il fiume più lungo d'Italia?",
+        "correct_answer": "Po",
+        "incorrect_answers": [
+            "Adige",
+            "Tevere",
+            "Arno"
+        ]
+    },
+    {
+        "category": "Storia",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Chi era l'imperatore romano quando Gesù fu crocifisso?",
+        "correct_answer": "Tiberio",
+        "incorrect_answers": [
+            "Augusto",
+            "Nerone",
+            "Caligola"
+        ]
+    }
+]

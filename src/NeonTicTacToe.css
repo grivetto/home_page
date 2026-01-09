@@ -1,0 +1,104 @@
+.ttt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 60vh;
+    background: #050510;
+    border-radius: 20px;
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+    /* Assuming a tech font, or fallback */
+}
+
+.ttt-title {
+    color: #fff;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.status {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.x-turn {
+    color: #f0f;
+    text-shadow: 0 0 10px #f0f;
+}
+
+.o-turn {
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff;
+}
+
+.winner-text {
+    color: #ff0;
+    text-shadow: 0 0 15px #ff0;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.ttt-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+}
+
+.ttt-cell {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(0, 255, 255, 0.2);
+    border-radius: 10px;
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ttt-cell:hover {
+    background: rgba(0, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+.ttt-cell.x {
+    color: #f0f;
+    text-shadow: 0 0 15px #f0f;
+    border-color: #f0f;
+}
+
+.ttt-cell.o {
+    color: #0ff;
+    text-shadow: 0 0 15px #0ff;
+    border-color: #0ff;
+}
+
+.reset-button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    background: transparent;
+    border: 2px solid #ff0;
+    color: #ff0;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.2);
+}
+
+.reset-button:hover {
+    background: #ff0;
+    color: #000;
+    box-shadow: 0 0 20px #ff0;
+}
