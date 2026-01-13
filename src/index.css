@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #e0f7fa; /* Light Blue */
+  --text-color: #333;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-family: 'Inter', sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
