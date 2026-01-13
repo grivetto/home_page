@@ -1,0 +1,3 @@
+Task: Install necessary dependencies
+Changes: Installed @fontsource/inter. Created tests/check_deps.js to verify.
+Why: Required for the specified 'Clean and Modern' typography.
