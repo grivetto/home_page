@@ -1,14 +1,13 @@
 import React from 'react';
+import Bio from './components/Bio';
+import CTA from './components/CTA';
 
 function App() {
   return (
     <div className="app-container">
-      <header className="hero-section">
-        <h1>Sergio Grivetto</h1>
-        <p>Peaceful Thoughts & Digital Innovation</p>
-      </header>
       <main>
-        <p>Welcome to my personal portfolio. Work in progress.</p>
+        <Bio />
+        <CTA />
       </main>
     </div>
   );
