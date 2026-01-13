@@ -2,7 +2,7 @@
 
 ## Phase 1: Project Structure & Assets
 - [x] Task: Clean up and organize existing files. Move legacy landing pages to a `legacy/` directory to avoid confusion, but keep `index.html` as the entry point for Vite. 033e4ed
-- [ ] Task: Install necessary dependencies (check `package.json` for missing CSS/font libraries if any, otherwise standard CSS).
+- [x] Task: Install necessary dependencies (check `package.json` for missing CSS/font libraries if any, otherwise standard CSS). a83d5b3
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Project Structure & Assets' (Protocol in workflow.md)
 
 ## Phase 2: Core Components Implementation
