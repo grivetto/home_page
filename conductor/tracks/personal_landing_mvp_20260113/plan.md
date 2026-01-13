@@ -6,7 +6,7 @@
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Project Structure & Assets' (Protocol in workflow.md)
 
 ## Phase 2: Core Components Implementation
-- [ ] Task: Create `Bio` component.
+- [x] Task: Create `Bio` component. 39f6ba8
     - [ ] Sub-task: Write tests for Bio component (check rendering of name/text).
     - [ ] Sub-task: Implement Bio component.
 - [ ] Task: Create `CTA` component.
