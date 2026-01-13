@@ -5,14 +5,14 @@
 - [x] Task: Install necessary dependencies (check `package.json` for missing CSS/font libraries if any, otherwise standard CSS). a83d5b3
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Project Structure & Assets' (Protocol in workflow.md)
 
-## Phase 2: Core Components Implementation
+## Phase 2: Core Components Implementation [checkpoint: 44792cf]
 - [x] Task: Create `Bio` component. 39f6ba8
     - [x] Sub-task: Write tests for Bio component (check rendering of name/text).
     - [x] Sub-task: Implement Bio component.
 - [x] Task: Create `CTA` component. 204bda1
     - [x] Sub-task: Write tests for CTA component (check button rendering/link).
     - [x] Sub-task: Implement CTA component.
-- [ ] Task: Conductor - User Manual Verification 'Phase 2: Core Components Implementation' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Core Components Implementation' (Protocol in workflow.md)
 
 ## Phase 3: Styling & Theme
 - [ ] Task: Define global CSS variables for the "Light Blue" palette and typography in `index.css` or `App.css`.
