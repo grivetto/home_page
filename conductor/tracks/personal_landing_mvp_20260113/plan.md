@@ -20,6 +20,6 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 3: Styling & Theme' (Protocol in workflow.md)
 
 ## Phase 4: Integration & Verification
-- [ ] Task: Assemble `Bio` and `CTA` into the main `App.jsx`.
+- [x] Task: Assemble `Bio` and `CTA` into the main `App.jsx`. 64ecbc1
 - [ ] Task: Verify responsive behavior and fix any mobile layout issues.
 - [ ] Task: Conductor - User Manual Verification 'Phase 4: Integration & Verification' (Protocol in workflow.md)
