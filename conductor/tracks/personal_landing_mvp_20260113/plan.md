@@ -7,11 +7,11 @@
 
 ## Phase 2: Core Components Implementation
 - [x] Task: Create `Bio` component. 39f6ba8
-    - [ ] Sub-task: Write tests for Bio component (check rendering of name/text).
-    - [ ] Sub-task: Implement Bio component.
-- [ ] Task: Create `CTA` component.
-    - [ ] Sub-task: Write tests for CTA component (check button rendering/link).
-    - [ ] Sub-task: Implement CTA component.
+    - [x] Sub-task: Write tests for Bio component (check rendering of name/text).
+    - [x] Sub-task: Implement Bio component.
+- [x] Task: Create `CTA` component. 204bda1
+    - [x] Sub-task: Write tests for CTA component (check button rendering/link).
+    - [x] Sub-task: Implement CTA component.
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Core Components Implementation' (Protocol in workflow.md)
 
 ## Phase 3: Styling & Theme
