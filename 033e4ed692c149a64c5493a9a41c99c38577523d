@@ -1,0 +1,3 @@
+Task: Clean up and organize existing files
+Changes: Moved legacy landing pages (landing_v*.html, landing_demo.html, index_alpha0.0.1.php) to legacy/ directory. Created tests/test_legacy_cleanup.py.
+Why: To declutter the root directory and separate legacy code from the new React/Vite project structure.
