@@ -4,7 +4,7 @@ import os
 
 FTP_HOST = "ftp.grivetto.eu"
 FTP_USER = "6539170@aruba.it"
-FTP_PASS = "@Freedom_2024!!"
+FTP_PASS = "ciao bello"
 REMOTE_DIR = "/www.grivetto.eu"
 LOCAL_FILE = "dist/index.html"
 
