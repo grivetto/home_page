@@ -1,0 +1,3 @@
+Task: Create Bio component
+Changes: Implemented Bio.jsx, created Bio.test.jsx, configured vitest/jsdom in vite.config.js.
+Why: Core requirement for the personal landing page.
