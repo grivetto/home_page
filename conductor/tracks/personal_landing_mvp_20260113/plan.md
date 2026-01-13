@@ -1,0 +1,25 @@
+# Plan: Initialize Personal Landing Page MVP
+
+## Phase 1: Project Structure & Assets
+- [ ] Task: Clean up and organize existing files. Move legacy landing pages to a `legacy/` directory to avoid confusion, but keep `index.html` as the entry point for Vite.
+- [ ] Task: Install necessary dependencies (check `package.json` for missing CSS/font libraries if any, otherwise standard CSS).
+- [ ] Task: Conductor - User Manual Verification 'Phase 1: Project Structure & Assets' (Protocol in workflow.md)
+
+## Phase 2: Core Components Implementation
+- [ ] Task: Create `Bio` component.
+    - [ ] Sub-task: Write tests for Bio component (check rendering of name/text).
+    - [ ] Sub-task: Implement Bio component.
+- [ ] Task: Create `CTA` component.
+    - [ ] Sub-task: Write tests for CTA component (check button rendering/link).
+    - [ ] Sub-task: Implement CTA component.
+- [ ] Task: Conductor - User Manual Verification 'Phase 2: Core Components Implementation' (Protocol in workflow.md)
+
+## Phase 3: Styling & Theme
+- [ ] Task: Define global CSS variables for the "Light Blue" palette and typography in `index.css` or `App.css`.
+- [ ] Task: Apply styles to `Bio` and `CTA` components to match the "Clean and Modern" guideline.
+- [ ] Task: Conductor - User Manual Verification 'Phase 3: Styling & Theme' (Protocol in workflow.md)
+
+## Phase 4: Integration & Verification
+- [ ] Task: Assemble `Bio` and `CTA` into the main `App.jsx`.
+- [ ] Task: Verify responsive behavior and fix any mobile layout issues.
+- [ ] Task: Conductor - User Manual Verification 'Phase 4: Integration & Verification' (Protocol in workflow.md)
